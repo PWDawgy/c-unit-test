@@ -8,4 +8,4 @@ int main()
     printf("Average: %f\r\n", avg);
 
     return 0;
-}
+} 
