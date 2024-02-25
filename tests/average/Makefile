@@ -12,8 +12,10 @@ TEST_DIR = $(PROJECT_DIR)/tests
 CPPUTEST_HOME ?= $(PROJECT_DIR)../../tools/cpputest
 
 # Include and source files for the component under test
-INCLUDE_DIRS = $(SRC_DIR)/$(COMPONENT_NAME)
-SRC_DIRS = $(SRC_DIR)/$(COMPONENT_NAME)
+# INCLUDE_DIRS = $(SRC_DIR)/$(COMPONENT_NAME)
+# SRC_DIRS = $(SRC_DIR)/$(COMPONENT_NAME)
+INCLUDE_DIRS = ../../src/$(COMPONENT_NAME)
+SRC_DIRS = ../../src/$(COMPONENT_NAME)
 
 # Includes CppUTest header files
 INCLUDE_DIRS += $(CPPUTEST_HOME)/include 
